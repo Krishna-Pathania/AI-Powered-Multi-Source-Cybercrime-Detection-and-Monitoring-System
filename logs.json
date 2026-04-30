@@ -1,0 +1,430 @@
+[
+  {
+    "timestamp": "2026-04-30T14:40:39",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:40:39",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:41:29",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:42:30",
+    "input": "http://verify-account-bank-update.tk/",
+    "risk": "High Risk",
+    "score": 10.0,
+    "ml_prob": 0.9790124893188477,
+    "reasons": [
+      "Suspicious TLD detected: .tk",
+      "Phishing-related keywords found in the URL.",
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:42:30",
+    "input": "http://verify-account-bank-update.tk/",
+    "risk": "High Risk",
+    "score": 10.0,
+    "ml_prob": 0.9790124893188477,
+    "reasons": [
+      "Suspicious TLD detected: .tk",
+      "Phishing-related keywords found in the URL.",
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:42:36",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:44:44",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:44:54",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:45:02",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:45:11",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:47:49",
+    "input": "https://web.whatsapp.com/",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for whatsapp.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:49:18",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:50:03",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:50:16",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:51:08",
+    "input": "http://login-paypal-security-alert.xyz/",
+    "risk": "High Risk",
+    "score": 10.0,
+    "ml_prob": 0.9712342023849487,
+    "reasons": [
+      "Suspicious TLD detected: .xyz",
+      "Phishing-related keywords found in the URL.",
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:51:08",
+    "input": "http://login-paypal-security-alert.xyz/",
+    "risk": "High Risk",
+    "score": 10.0,
+    "ml_prob": 0.9712342023849487,
+    "reasons": [
+      "Suspicious TLD detected: .xyz",
+      "Phishing-related keywords found in the URL.",
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:51:10",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:51:23",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:54:13",
+    "input": "https://web.whatsapp.com/",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for whatsapp.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:55:04",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:55:05",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:55:08",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:55:45",
+    "input": "https://web.whatsapp.com/",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for whatsapp.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:55:51",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:56:15",
+    "input": "https://web.whatsapp.com/",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for whatsapp.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:57:17",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:57:17",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:57:56",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:57:58",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:58:02",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:58:19",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:58:35",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:58:49",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:59:03",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:59:08",
+    "input": "https://web.whatsapp.com/",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for whatsapp.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T14:59:57",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T15:01:10",
+    "input": "https://web.whatsapp.com/",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for whatsapp.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T15:01:18",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T15:01:53",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T15:01:59",
+    "input": "https://web.whatsapp.com/",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for whatsapp.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T15:01:59",
+    "input": "https://chatgpt.com/c/69e5be1d-9bc4-8321-89f4-baf25cdac40d",
+    "risk": "Safe",
+    "score": 0.0,
+    "ml_prob": 0.01,
+    "reasons": [
+      "Whitelisted trusted domain override applied for chatgpt.com."
+    ]
+  },
+  {
+    "timestamp": "2026-04-30T15:02:00",
+    "input": "http://localhost:8501/",
+    "risk": "Suspicious",
+    "score": 5.0,
+    "ml_prob": 0.1763329952955246,
+    "reasons": [
+      "URL does not use HTTPS."
+    ]
+  }
+]
