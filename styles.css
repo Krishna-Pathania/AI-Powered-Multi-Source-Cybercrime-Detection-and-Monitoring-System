@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(14, 165, 233, 0.14), transparent 38%),
+    linear-gradient(180deg, #f8fbff 0%, #eef4fb 100%);
+  color: #0f172a;
+}
+
+.popup {
+  width: 380px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #0369a1;
+  margin-bottom: 4px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.3;
+}
+
+.refresh-button {
+  border: none;
+  background: linear-gradient(135deg, #0f172a, #1d4ed8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.18);
+}
+
+.status-card {
+  border-radius: 18px;
+  padding: 16px;
+  color: white;
+  margin-bottom: 12px;
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.16);
+}
+
+.status-card.safe {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+}
+
+.status-card.suspicious {
+  background: linear-gradient(135deg, #d97706, #f59e0b);
+}
+
+.status-card.high-risk {
+  background: linear-gradient(135deg, #dc2626, #ef4444);
+}
+
+.status-card.unavailable {
+  background: linear-gradient(135deg, #475569, #64748b);
+}
+
+.status-label {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.risk-level {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.panel-inline {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.metric {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.metric-label {
+  display: block;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.metric-value {
+  display: block;
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.panel {
+  background: white;
+  border-radius: 14px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.panel-title {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #334155;
+}
+
+.url-text {
+  font-size: 13px;
+  word-break: break-all;
+  color: #0f172a;
+}
+
+.reasons-list,
+.history-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.reasons-list li,
+.history-list li {
+  font-size: 13px;
+  padding: 7px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.reasons-list li:last-child,
+.history-list li:last-child {
+  border-bottom: none;
+}
+
+.backend-status {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.timestamp-block {
+  text-align: right;
+}
+
+.timestamp-text {
+  font-size: 13px;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.history-url {
+  font-size: 12px;
+  color: #0f172a;
+  word-break: break-all;
+}
+
+.history-meta {
+  margin-top: 4px;
+  font-size: 11px;
+  color: #64748b;
+}
+
+.action-row {
+  display: grid;
+  gap: 10px;
+}
+
+.trust-button {
+  border: none;
+  background: linear-gradient(135deg, #0f766e, #0ea5e9);
+  color: white;
+  padding: 10px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.trust-button:disabled,
+.refresh-button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.feedback-status {
+  font-size: 12px;
+  color: #475569;
+}

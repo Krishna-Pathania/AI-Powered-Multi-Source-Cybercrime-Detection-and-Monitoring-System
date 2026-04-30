@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cybercrime Detection Guard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <header class="header">
+        <div>
+          <div class="eyebrow">AI Browser Shield</div>
+          <h1>Cybercrime Detection Guard</h1>
+        </div>
+        <button id="refreshButton" class="refresh-button" title="Reanalyze current tab">Refresh</button>
+      </header>
+
+      <section id="statusCard" class="status-card safe">
+        <div class="status-label">Risk Level</div>
+        <div id="riskLevel" class="risk-level">Loading...</div>
+        <div class="metrics">
+          <div class="metric">
+            <span class="metric-label">Risk Score</span>
+            <span id="riskScore" class="metric-value">-</span>
+          </div>
+          <div class="metric">
+            <span class="metric-label">ML Probability</span>
+            <span id="mlProbability" class="metric-value">-</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel panel-inline">
+        <div>
+          <div class="panel-title">Backend Status</div>
+          <div id="backendStatus" class="backend-status">Checking backend...</div>
+        </div>
+        <div class="timestamp-block">
+          <div class="panel-title">Last Scan</div>
+          <div id="lastUpdated" class="timestamp-text">-</div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">Current URL</div>
+        <div id="currentUrl" class="url-text">Waiting for active tab...</div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">Reasons</div>
+        <ul id="reasonsList" class="reasons-list"></ul>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">Actions</div>
+        <div class="action-row">
+          <button id="falsePositiveButton" class="trust-button">Report False Positive</button>
+          <div id="feedbackStatus" class="feedback-status">Trust the current domain if this is an official site.</div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">Recent Scans</div>
+        <ul id="historyList" class="history-list"></ul>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+  </html>
