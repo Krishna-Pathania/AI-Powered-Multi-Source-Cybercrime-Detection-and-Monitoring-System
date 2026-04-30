@@ -1,0 +1,321 @@
+{
+  "email": {
+    "source": "email",
+    "samples": 46154,
+    "accuracy": 0.9792005199870003,
+    "class_distribution": {
+      "threat": 24377,
+      "safe": 21777
+    },
+    "report": {
+      "safe": {
+        "precision": 0.9819402639499885,
+        "recall": 0.9738231917336395,
+        "f1-score": 0.9778648835600645,
+        "support": 4355.0
+      },
+      "threat": {
+        "precision": 0.9767915309446255,
+        "recall": 0.9840032813781788,
+        "f1-score": 0.9803841438496118,
+        "support": 4876.0
+      },
+      "accuracy": 0.9792005199870003,
+      "macro avg": {
+        "precision": 0.979365897447307,
+        "recall": 0.9789132365559092,
+        "f1-score": 0.9791245137048381,
+        "support": 9231.0
+      },
+      "weighted avg": {
+        "precision": 0.9792205995437324,
+        "recall": 0.9792005199870003,
+        "f1-score": 0.9791956075522465,
+        "support": 9231.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "safe",
+        "threat"
+      ],
+      "matrix": [
+        [
+          4241,
+          114
+        ],
+        [
+          78,
+          4798
+        ]
+      ]
+    }
+  },
+  "sms": {
+    "source": "sms",
+    "samples": 5572,
+    "accuracy": 0.9730941704035875,
+    "class_distribution": {
+      "safe": 4825,
+      "threat": 747
+    },
+    "report": {
+      "safe": {
+        "precision": 0.988517745302714,
+        "recall": 0.9803312629399586,
+        "f1-score": 0.9844074844074844,
+        "support": 966.0
+      },
+      "threat": {
+        "precision": 0.8789808917197452,
+        "recall": 0.9261744966442953,
+        "f1-score": 0.9019607843137255,
+        "support": 149.0
+      },
+      "accuracy": 0.9730941704035875,
+      "macro avg": {
+        "precision": 0.9337493185112296,
+        "recall": 0.9532528797921269,
+        "f1-score": 0.9431841343606049,
+        "support": 1115.0
+      },
+      "weighted avg": {
+        "precision": 0.973880085048129,
+        "recall": 0.9730941704035875,
+        "f1-score": 0.9733899433187221,
+        "support": 1115.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "safe",
+        "threat"
+      ],
+      "matrix": [
+        [
+          947,
+          19
+        ],
+        [
+          11,
+          138
+        ]
+      ]
+    }
+  },
+  "text": {
+    "source": "text",
+    "samples": 51726,
+    "accuracy": 0.9674270249371738,
+    "class_distribution": {
+      "safe": 26602,
+      "threat": 25124
+    },
+    "report": {
+      "safe": {
+        "precision": 0.9693032015065913,
+        "recall": 0.9672993798158241,
+        "f1-score": 0.9683002539742264,
+        "support": 5321.0
+      },
+      "threat": {
+        "precision": 0.965448768864178,
+        "recall": 0.9675621890547264,
+        "f1-score": 0.9665043236258821,
+        "support": 5025.0
+      },
+      "accuracy": 0.9674270249371738,
+      "macro avg": {
+        "precision": 0.9673759851853847,
+        "recall": 0.9674307844352752,
+        "f1-score": 0.9674022888000542,
+        "support": 10346.0
+      },
+      "weighted avg": {
+        "precision": 0.9674311230194341,
+        "recall": 0.9674270249371738,
+        "f1-score": 0.9674279796652732,
+        "support": 10346.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "safe",
+        "threat"
+      ],
+      "matrix": [
+        [
+          5147,
+          174
+        ],
+        [
+          163,
+          4862
+        ]
+      ]
+    }
+  },
+  "url": {
+    "source": "url",
+    "samples": 42636,
+    "accuracy": 0.9641181988742964,
+    "class_distribution": {
+      "threat": 28424,
+      "safe": 14212
+    },
+    "report": {
+      "safe": {
+        "precision": 0.9212886084357357,
+        "recall": 0.9757298628209637,
+        "f1-score": 0.9477280491971302,
+        "support": 2843.0
+      },
+      "threat": {
+        "precision": 0.9874932028276238,
+        "recall": 0.9583113456464379,
+        "f1-score": 0.9726834493840386,
+        "support": 5685.0
+      },
+      "accuracy": 0.9641181988742964,
+      "macro avg": {
+        "precision": 0.9543909056316797,
+        "recall": 0.9670206042337008,
+        "f1-score": 0.9602057492905844,
+        "support": 8528.0
+      },
+      "weighted avg": {
+        "precision": 0.9654224169626919,
+        "recall": 0.9641181988742964,
+        "f1-score": 0.9643640072251056,
+        "support": 8528.0
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "safe",
+        "threat"
+      ],
+      "matrix": [
+        [
+          2774,
+          69
+        ],
+        [
+          237,
+          5448
+        ]
+      ]
+    },
+    "cross_validation": {
+      "scoring": "f1_weighted",
+      "fold_scores": [
+        0.965293,
+        0.963998,
+        0.963206,
+        0.967453,
+        0.964788
+      ],
+      "mean": 0.964948,
+      "std": 0.001439
+    },
+    "feature_importance": [
+      {
+        "feature": "uses_https",
+        "importance": 0.624692
+      },
+      {
+        "feature": "has_ip_address",
+        "importance": 0.056413
+      },
+      {
+        "feature": "at_symbol_count",
+        "importance": 0.030557
+      },
+      {
+        "feature": "path_length",
+        "importance": 0.02206
+      },
+      {
+        "feature": "popularity_score_mock",
+        "importance": 0.020538
+      },
+      {
+        "feature": "domain_age_days_mock",
+        "importance": 0.02043
+      },
+      {
+        "feature": "trusted_domain",
+        "importance": 0.012982
+      },
+      {
+        "feature": "tld=org",
+        "importance": 0.009221
+      },
+      {
+        "feature": "tld=co.uk",
+        "importance": 0.008927
+      },
+      {
+        "feature": "tld=unknown",
+        "importance": 0.008088
+      },
+      {
+        "feature": "subdomain_count",
+        "importance": 0.00801
+      },
+      {
+        "feature": "tld=szczecin.pl",
+        "importance": 0.007437
+      },
+      {
+        "feature": "tld=net",
+        "importance": 0.00738
+      },
+      {
+        "feature": "hostname_length",
+        "importance": 0.007242
+      },
+      {
+        "feature": "tld=ac.nz",
+        "importance": 0.006201
+      }
+    ],
+    "test_probabilities_preview": [
+      0.9986,
+      1.0,
+      0.9999,
+      0.9962,
+      0.9938,
+      0.9981,
+      0.9979,
+      0.9997,
+      0.9993,
+      0.9985
+    ],
+    "selected_model": "XGBoost",
+    "model_comparison": [
+      {
+        "model": "Logistic Regression",
+        "accuracy": 0.9395,
+        "precision": 0.9823,
+        "recall": 0.9259,
+        "f1": 0.9533
+      },
+      {
+        "model": "Random Forest",
+        "accuracy": 0.9593,
+        "precision": 0.9952,
+        "recall": 0.9435,
+        "f1": 0.9687
+      },
+      {
+        "model": "XGBoost",
+        "accuracy": 0.9641,
+        "precision": 0.9875,
+        "recall": 0.9583,
+        "f1": 0.9727
+      }
+    ],
+    "saved_model_path": "C:\\Users\\admin\\OneDrive\\Desktop\\cse274\\url_model_bundle.pkl"
+  }
+}

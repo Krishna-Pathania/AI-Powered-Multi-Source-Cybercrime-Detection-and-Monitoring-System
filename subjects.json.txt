@@ -1,0 +1,12 @@
+{
+    "Artificial Intelligence": 48,
+    "Data Structures": 55,
+    "Operating Systems": 50,
+    "Database Management": 52,
+    "Computer Networks": 46,
+    "Software Engineering": 44,
+    "Theory of Computation": 40,
+    "Machine Learning": 42,
+    "Compiler Design": 38,
+    "Cloud Computing": 36
+}

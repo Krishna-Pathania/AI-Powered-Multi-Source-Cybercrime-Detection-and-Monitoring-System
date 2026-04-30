@@ -1,0 +1,15 @@
+streamlit
+pandas
+scikit-learn
+numpy
+tldextract
+requests
+xgboost
+fastapi
+uvicorn
+pystray
+pyperclip
+plyer
+pillow
+win10toast
+streamlit-autorefresh
