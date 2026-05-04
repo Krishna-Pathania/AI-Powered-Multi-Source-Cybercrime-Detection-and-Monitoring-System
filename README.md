@@ -25,7 +25,7 @@ A real-time multi-source cybercrime detection system that identifies phishing UR
 ## 🧠 Technologies Used
 
 - Python
-- Flask (Backend API)
+- FastAPI (Backend API)
 - Streamlit (Dashboard)
 - Scikit-learn (ML models)
 - TF-IDF (NLP processing)
